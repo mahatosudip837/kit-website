@@ -24,13 +24,13 @@
     <header>
       <div class="logo-bg">
         <div
-          class="container d-flex justify-content-between align-items-center"
+          class="container d-flex justify-content-between align-items-center logo-column"
         >
           <div class="logo">
             <a href="index.html">
               <img
                 src="https://wedesignthemes.com/html/kidslife/images/logo.png"
-                alt=""
+                alt="" class="img-fluid"
               />
             </a>
           </div>
@@ -66,19 +66,20 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item home">
-                  <a class="nav-link active1" href="#"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                  <div class="box">
-                    <ul>
-                      <li><a href="">link1</a></li>
-                      <li><a href="">link1</a></li>
-                      <li class="sublink">
-                        <a href="">link1</a>
-                        <div class="box1"></div>
-                      </li>
-                    </ul>
+                <li class="my-dropdown nav-item home">
+                  <a class="nav-link active1">Home</a>
+                  <div class="dropdown-content">
+                      <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                      <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                      <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                      <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                      <div class="submenu">
+                          <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                          <div class="sub-submenu">
+                              <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level II</a>
+                              <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level II</a>
+                          </div>
+                      </div>
                   </div>
                 </li>
                 <li class="nav-item about">
@@ -96,20 +97,40 @@
                     >Services <span class="sr-only">(current)</span></a
                   >
                 </li>
-                <li class="nav-item portfolio">
-                  <a class="nav-link" href="#"
-                    >Portfolio <span class="sr-only">(current)</span></a
-                  >
+                <li class="my-dropdown nav-item portfolio">
+                  <a class="nav-link">Portfolio</a>
+                  <div class="dropdown-content">
+                      <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                      <div class="submenu">
+                          <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                          <div class="sub-submenu">
+                              <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level II</a>
+                          </div>
+                      </div>
+                  </div>
                 </li>
-                <li class="nav-item pages">
-                  <a class="nav-link" href="#"
-                    >Pages <span class="sr-only">(current)</span></a
-                  >
+                <li class="my-dropdown nav-item pages">
+                  <a class="nav-link">Pages</a>
+                  <div class="dropdown-content" style="height: 400px;width: 600px;">
+
+                  </div>
                 </li>
-                <li class="nav-item blog">
-                  <a class="nav-link" href="#"
-                    >Blog <span class="sr-only">(current)</span></a
-                  >
+                <li class="my-dropdown nav-item blog">
+                  <a class="nav-link">Blog</a>
+                  <div class="dropdown-content">
+                      <div class="submenu">
+                          <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                          <div class="sub-submenu">
+                              <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level II</a>
+                          </div>
+                      </div>
+                      <div class="submenu">
+                          <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level I</a>
+                          <div class="sub-submenu">
+                              <a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/flower_red.png" alt="" class="mr-1">Submenu level II</a>
+                          </div>
+                      </div>
+                  </div>
                 </li>
                 <li class="nav-item shop">
                   <a class="nav-link" href="#"
@@ -191,7 +212,7 @@
         <div class="container">
             <div class="row">
                 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-lg-6">
                     <h2>Play As You Learn</h2>
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-12">
@@ -264,7 +285,7 @@
                 
                 </div>
                 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-lg-6">
                     <h2>With Music4Kids, music is child's play!</h2>
                     <div class="add-slider-wrapper">
                         <div id="carousel-1" class="carousel slide" data-ride="carousel">
@@ -307,27 +328,27 @@
             </div>
             <div class="col-lg-4">
                 <div class="portfolio-img">
-                    <img src="https://wedesignthemes.com/html/kidslife/images/image1.jpg" alt="" class="img-fluid">
+                    <img src="https://wedesignthemes.com/html/kidslife/images/image3.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="portfolio-img">
-                    <img src="https://wedesignthemes.com/html/kidslife/images/image1.jpg" alt="" class="img-fluid">
+                    <img src="https://wedesignthemes.com/html/kidslife/images/image2.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="portfolio-img">
-                    <img src="https://wedesignthemes.com/html/kidslife/images/image1.jpg" alt="" class="img-fluid">
+                    <img src="https://wedesignthemes.com/html/kidslife/images/image5.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="portfolio-img">
-                    <img src="https://wedesignthemes.com/html/kidslife/images/image1.jpg" alt="" class="img-fluid">
+                    <img src="https://wedesignthemes.com/html/kidslife/images/image7.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="portfolio-img">
-                    <img src="https://wedesignthemes.com/html/kidslife/images/image1.jpg" alt="" class="img-fluid">
+                    <img src="https://wedesignthemes.com/html/kidslife/images/image6.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -339,7 +360,7 @@
     <div class="container">
         <h2 class="text-center green-line">Recent Blog</h2>
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-12 blog">
+            <div class="col-lg-6 col-12 blog">
                 <div class="blog-box">
                     <div class="date-details text-center">
                         <a href="" class="blog-people-logo"><img src="https://wedesignthemes.com/html/kidslife/images/rounded-bg-img.jpg" alt="" class="img-fluid"></a>
@@ -364,7 +385,7 @@
                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-12 blog">
+            <div class="col-lg-6 col-12 blog">
                 <div class="blog-box">
                     <div class="date-details text-center">
                         <a href="" class="blog-people-logo"><img src="https://wedesignthemes.com/html/kidslife/images/rounded-bg-img.jpg" alt="" class="img-fluid"></a>
@@ -449,7 +470,7 @@
     <div class="container">
         <h2 class="text-center green-line text-dark">Recent Products</h2>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                 <div class="product-box">
                     <div class="product-img">
                         <a href=""><img src="https://wedesignthemes.com/html/kidslife/images/product1.jpg" alt="" class="img-fluid"></a>
@@ -462,7 +483,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                 <div class="product-box">
                     <div class="product-img">
                         <a href=""><img src="https://wedesignthemes.com/html/kidslife/images/product2.jpg" alt="" class="img-fluid"></a>
@@ -474,7 +495,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                 <div class="product-box">
                     <div class="product-img">
                         <a href=""><img src="https://wedesignthemes.com/html/kidslife/images/product3.jpg" alt="" class="img-fluid"></a>
@@ -487,7 +508,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-12">
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                 <div class="product-box">
                     <div class="product-img">
                         <a href=""><img src="https://wedesignthemes.com/html/kidslife/images/product4.jpg" alt="" class="img-fluid"></a>
@@ -503,14 +524,94 @@
     </div>
 </section>
 
+<footer>
+  <div class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12 about-kids">
+          <h3 class="footer-title red-border"> About Kids Life </h3>
+          <p class="mb-0 footer-para">Happy <a href=""><strong>Kids Life</strong></a> comes with powerful theme options, which empowers you to quickly and easily build incredible store.</p>
+          <ul>
+            <li> <a href=""> English Grammar Class </a> </li>
+            <li> <a href=""> Music class </a> </li>
+            <li> <a href=""> Swimming &amp; Karate </a> </li>
+            <li> <a href=""> Lot of HTML Styles </a> </li>
+            <li> <a href=""> Unique News Page Design </a> </li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 latest-post">
+          <h3 class="footer-title green-border">  Latest Post  </h3>
+          <ul>
+            <li>
+            <a href="">
+            <img src="https://wedesignthemes.com/html/kidslife/images/blog_list1.jpg" alt="" title="">
+            </a>
+            <h6><a href=""> Amazing post with all goodies </a> <br> <br><span> March 23, 2014 </span></h6>
+            
+            </li>
+            <li>
+            <a href="">
+            <img src="https://wedesignthemes.com/html/kidslife/images/blog_list2.jpg" alt="" title="">
+            </a>
+            <h6><a href=""> Amazing post with all goodies </a> <br><br><span> March 23, 2014 </span></h6>
+            </li>
+            <li>
+            <a href="">
+            <img src="https://wedesignthemes.com/html/kidslife/images/blog_list3.jpg" alt="" title="">
+            </a>
+            <h6><a href=""> Amazing post with all goodies </a> <br><br><span> March 23, 2014 </span></h6>
+            </li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h3 class="footer-title yellow-border">  Twitter Feeds </h3>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h3 class="footer-title blue-border"> Contact </h3>
+          <div class="footer-contact">
+            <p><i class="fa fa-map-marker" style="float: left;"></i> 4318 Mansion House, Greenland <br> United States </p>
+            <p><i class="fa fa-phone"></i> (000) 233 - 3236 </p>
+            <p><i class="fa fa-envelope"></i><a href="" style="color: #5c5c5c;;"> Kidslife@somemail.com </a></p>
+          </div>
+          <div class="subscribe">
+            <p> We're social </p>
+            <form action="" class="d-flex">
+              <p>
+                <i class="fa fa-envelope-o"></i>
+                <input type="email" placeholder="Email Address" name="mc_email" required="">
+              </p>
+              <input type="submit" value="Subscribe" class="button" name="btnsubscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-sm-center">
+          <p class="copyright-info text-white mb-0">© 2014 Kids Life. All rights reserved. Design by Buddhathemes</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 d-flex footer-links justify-content-lg-end justify-content-sm-center">
+          <p class="mb-0 text-white mr-2">Follow us</p>
+          <ul class="dt-sc-social-icons d-flex align-items-center mb-0">
+            <li class="facebook"><a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/facebook.png" alt="" title=""></a></li>
+            <li class="twitter"><a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/twitter.png" alt="" title=""></a></li>
+            <li class="gplus"><a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/gplus.png" alt="" title=""></a></li>
+            <li class="pinterest"><a href="#"><img src="https://wedesignthemes.com/html/kidslife/images/pinterest.png" alt="" title=""></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
