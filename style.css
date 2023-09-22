@@ -738,7 +738,7 @@ footer .footer-links ul li a:hover{
         font-size: 12px;
     }
 }
-@media screen and (max-width:992px){
+@media screen and (max-width:991px){
     .logo-column{
         flex-direction: column;
     }
@@ -774,6 +774,9 @@ footer .footer-links ul li a:hover{
         position: absolute;
         left: 50%;
         transform: translate(-50%,0);
+    }
+    .breadcrumb-section{
+        margin-top: 78px !important;
     }
 }
 
