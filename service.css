@@ -1,0 +1,126 @@
+.fullwidth_banner {
+    background: url('https://wedesignthemes.com/html/kidslife/images/services_banner.jpg') center center no-repeat;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    padding: 87px 0px;
+}
+.fullwidth_banner h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 36px;
+    color: #008c99;
+}
+.faq .answer {
+    display: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+.faq .question,
+.faq1 .question{
+    cursor: pointer;
+}
+.faq1 .answer{
+    margin-left: 41px;
+}
+.faq1 h5::before {
+    content: "?";
+    font-family: 'Lato', sans-serif;
+    border: 3px solid #d2dec3;
+    line-height: 24px;
+    background: #333334;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border: 3px solid #cdd0d0;
+    border-radius: 50%;
+}
+.play-heading .icon span {
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 43px;
+    display: inline-block;
+    color: #5c5c5c;
+}
+.service-carousel img{
+    height: auto !important;
+}
+.events-list {
+    margin: 0px 0px 30px;
+    padding: 0px 0px 20px;
+    border-bottom: 1px solid #d8e8ea;
+}
+.events-list .event-thumb {
+    margin: 0px 20px 0px 0px;
+    max-width: 100px;
+}
+.events-list h2 a{
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    color: #2f2f2f;
+    font-family: 'Bubblegum Sans', cursive;
+}
+audio{
+    width: 100%;
+}
+.audio{
+    background: url('https://thumbs.dreamstime.com/b/dirty-music-background-21777451.jpg') center center no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 16px 18px;
+    font-size: 16px;
+    color: #a9a7a7;
+    background: #FFFFFF;
+    border: 1px solid #eaeaea;
+    outline: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.admission{
+    background: #008c99;
+}
+.admission-form textarea, .contact-form textarea, .comment-form textarea {
+    width: 100%;
+    padding: 16px 18px;
+    background: #FFFFFF;
+    height: 190px;
+    border: 1px solid #eaeaea;
+}
+input[type=submit] {
+    background: #015057;
+    color: #FFFFFF;
+    font-family: inherit;
+    padding: 18px 24px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+form p {
+    margin-bottom: 20px !important;
+}
+.dt-sc-one-third {
+    width: 32%;
+}
+@media screen and (max-width:767px){
+    .dt-sc-one-third {
+        width: 100%;
+    }
+}
+@media screen and (max-width:575px){
+    iframe{
+        height: 200px;
+        width: 267px;
+    }
+}

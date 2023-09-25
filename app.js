@@ -54,5 +54,52 @@ $(document).ready(function(){
         }
     })
 
+    $(".tab-button").click(function() {
+        let tabId = $(this).attr("data-tab");
+
+        $('.tab-button').each(function( ) {
+            if($(this).hasClass('active-btn')){
+                $(this).removeClass('active-btn')
+            }
+        });
+        if($(this).hasClass('active-btn')){
+            $(this).removeClass('active-btn')
+        } else {
+            $(this).addClass('active-btn')
+        }
+
+        $(".tab").removeClass("active-tab");
+
+        $("#" + tabId).addClass("active-tab");
+    });
+
+
+    $(".faq .answer").hide();
+
+    // Show the first answer by default
+    $(".faq .answer:first").show();
+
+    // Toggle answer visibility when clicking a question
+    $(".faq .question").click(function() {
+        // Hide all answers
+        $(".faq .answer").stop(true,true).slideUp("slow");
+
+        // Show the clicked question's answer
+        $(this).next(".answer").stop(true,true).slideDown("fast");
+    });
+    $(".faq1 .answer").hide();
+
+    // Show the first answer by default
+    $(".faq1 .answer:first").show();
+
+    // Toggle answer visibility when clicking a question
+    $(".faq1 .question").click(function() {
+        // Hide all answers
+        $(".faq1 .answer").stop(true,true).slideUp('slow');
+
+        // Show the clicked question's answer
+        $(this).next(".answer").stop(true,true).slideDown("fast");
+    });
+
 
 })
