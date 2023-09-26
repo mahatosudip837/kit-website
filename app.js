@@ -101,5 +101,34 @@ $(document).ready(function(){
         $(this).next(".answer").stop(true,true).slideDown("fast");
     });
 
+    $('.filter').on('click', function() {
+        var selectedCategory = $(this).data('filter');
+        if (selectedCategory === 'all') {
+          $('.item').stop().fadeOut('slow');
+        $('.item').stop().fadeIn('slow');
+            $('.load').fadeOut('slow')
+        } else {
+            $('.item').stop().fadeOut('slow');
+            $('.item[data-category="' + selectedCategory + '"]').stop().fadeIn('slow');
+        }
+        $( '.filter' ).each(function( ) {
+        if($(this).hasClass('active')){
+            $(this).removeClass('active')
+        }
+    });
+
+    if($(this).hasClass('active')){
+        $(this).removeClass('active')
+    } else {
+        $(this).addClass('active')
+    }
+        
+        
+
+    });
+
+
+    
+
 
 })

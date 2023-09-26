@@ -1,0 +1,78 @@
+.filter-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter {
+    color: #FFFFFF;
+    background: #df9b00;
+    padding: 8px 12px;
+    display: inline-block;
+    margin: 0px 5px 0px 0px;
+    border: none;
+    border-bottom: 3px solid #ca8e06;
+    outline: none;
+    border-radius: 8px 0px 8px 0px;
+    cursor: pointer;
+}
+.filter:hover,
+.filter.active{
+    background: #cf571b;
+    border: none;
+    border-bottom: 3px solid #b54913;
+    outline: none;
+}
+.item {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.load{
+    display: none;
+}
+.portfolio-thumb {
+    max-height: 242px;
+    width: 100%;
+    position: relative;
+    float: none;
+    display: inline-block;
+    margin: 0px 0px 20px;
+    overflow: hidden;
+}
+.portfolio-thumb img {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+img {
+    border: none;
+    max-width: 100%;
+}
+.item-mask {
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all .2s ease 0s;
+    z-index: 9;
+    clear: both;
+}
+.portfolio-detail h5 a{
+    color: #434343;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal;
+    font-size: 18px;
+}
+.portfolio-detail p:before {
+    content: "\f06b";
+    display: inline-block;
+    margin: 0px 5px 0px 0px;
+    font-family: FontAwesome;
+}
