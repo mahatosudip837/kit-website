@@ -1,0 +1,53 @@
+.pagination {
+    float: left;
+    width: 100%;
+    margin: 20px 0px 10px;
+    padding: 0px;
+}
+.pagination .prev-post {
+    float: left;
+    margin-right: 4px;
+    padding: 0px;
+}
+.pagination ul {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.pagination ul li.active-page {
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0px 12px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+    position: relative;
+    border: 1px solid;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.pagination ul li {
+    float: left;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.pagination ul li a, .pagination .next-post a, .pagination .prev-post a {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0px 12px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+    border: 1px solid #008c99;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+}

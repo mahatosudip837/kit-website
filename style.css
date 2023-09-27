@@ -469,6 +469,7 @@ h4 a{
     background: url('https://wedesignthemes.com/html/kidslife/images/product_bg.png') center center repeat #d2d2d2;
 }
 .product-box{
+    position: relative;
     background: #ffffff;
     width: 270px;
 }
@@ -523,6 +524,45 @@ h4 a{
     font-weight: bold;
     color: #008c99;
 }
+.image-overlay {
+    background: rgba(0, 140, 153, 0.5);
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 9;
+}
+.product-button {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    margin: -11px auto 0px;
+    /* display: none; */
+    text-align: center;
+}
+.product-button a {
+    padding: 13px 18px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    transition: all .5s ease;
+}
+.product-button a:hover {
+    padding: 13px 18px;
+    border: 1px solid #FFF;
+    color: #008c99;
+    background: #ffffff;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
 
 /* footer section  */
 footer{

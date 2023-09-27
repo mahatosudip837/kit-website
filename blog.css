@@ -1,0 +1,20 @@
+.bg-light-green{
+    background: #008c99 !important;
+}
+.one-column-blog .left-bg:before {
+    content: "";
+    background: url('https://wedesignthemes.com/html/kidslife/images/green-meta-arrow.png') left center no-repeat;
+    float: left;
+    width: 15px;
+    height: 39px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: -15px;
+}
+.one-column-blog .blog-img {
+    border: 3px solid #008c99;
+}
+.text-light-green{
+    color: #008c99 !important;
+}

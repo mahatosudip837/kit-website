@@ -18,6 +18,11 @@ $(document).ready(function(){
     }, function(){
         $(this).find(".dropdown-content").stop(true, true).slideUp("fast");
     });
+    $(".product-box").hover(function(){
+        $(this).find(".image-overlay").stop(true, true).fadeIn("fast");
+    }, function(){
+        $(this).find(".image-overlay").stop(true, true).fadeOut("fast");
+    });
 
     $('.testimonial').owlCarousel({
         loop:true,

@@ -1,0 +1,101 @@
+blockquote.alignright {
+    margin-left: 20px;
+    text-align: left;
+    width: 35%;
+    float: right;
+}
+blockquote {
+    padding: 15px 38px;
+    margin: 0;
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    border: 1px dashed rgba(255,255,255,.5);
+    background: #008c99;
+    box-shadow: 0 0 0 2px #008c99;
+    -webkit-box-shadow: 0 0 0 2px #008c99;
+    -moz-box-shadow: 0 0 0 2px #008c99;
+}
+.alignright {
+    float: right;
+}
+blockquote q:before, blockquote q:after {
+    font-size: 48px;
+    font-family: Georgia,serif;
+    font-style: italic;
+    position: absolute;
+}
+blockquote q:before {
+    top: 24px;
+    left: 10px;
+}
+blockquote q:after {
+    bottom: 0;
+    right: 15px;
+}
+.commententries {
+    width: 100%;
+    float: left;
+    margin: 10px 0px 0px;
+    padding: 0px;
+}
+h2 span{
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal;
+    color: #000;
+}
+ul.commentlist {
+    float: left;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
+    list-style: none;
+    border-top: 0px;
+}
+ul.commentlist li {
+    display: block;
+    float: none;
+    list-style: none;
+    border: none;
+    margin: 0px 0px 28px;
+    padding: 0px 0px 0px 110px;
+    position: relative;
+    clear: both;
+}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+ul.commentlist li .comment-author {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: none;
+    float: none;
+    width: auto;
+    border: none;
+    z-index: 1;
+}
+.dt-sc-team .item-mask, .author-thumb .item-mask, .portfolio-thumb .item-mask, .comment-author .item-mask {
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all .2s ease 0s;
+    z-index: 9;
+    clear: both;
+}
+ul.commentlist li .comment-author img {
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    margin: 0px;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+ul.commentlist li .comment-details {
+    display: block;
+}
+.blog-form .dt-sc-one-third {
+    width: 49% !important;
+}
