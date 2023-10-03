@@ -461,7 +461,38 @@ h4 a{
     font-size: 16px;
     margin-bottom: 20px;
 }
-
+h1, h2, h3, h4, h5, h6, .dt-sc-ico-content h4 a, .dt-sc-ico-content.type2 h4 a, .entry-title h3, .dt-sc-team h4, h3.widgettitle, .dt-sc-music-audio h5 a, input[type=text], input[type=email], textarea, .breadcrumb-section h1, .activity h4, .megamenu-child-container > ul.sub-menu > li > a {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 25px !important;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+h6 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    color: #2f2f2f;
+}
 
 /* product section  */
 .products{

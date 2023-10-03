@@ -1,0 +1,116 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    clear: both;
+    border: 1px solid #f0f0f0;
+    border-bottom: 0px;
+}
+th {
+    color: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    background: #008c99;
+}
+td {
+    border-bottom: 1px solid #f0f0f0;
+    background: #f9f9f9;
+    line-height: normal;
+    text-align: center;
+    padding: 13px 15px;
+}tbody tr:nth-child(2n+1) td {
+    background: #ffffff;
+}
+.dt-sc-error-box {
+    background: #fcc;
+    border: 1px solid #f99;
+    color: #d01313;
+    position: relative;
+    clear: both;
+    margin-bottom: 25px;
+    padding: 15px 15px 12px 42px;
+}
+.dt-sc-error-box p, .dt-sc-warning-box p, .dt-sc-success-box p, .dt-sc-info-box p {
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.dt-sc-error-box:before {
+    color: #c54228;
+    content: "\f057";
+    font-size: 25px;
+    left: 12px;
+    position: absolute;
+    text-decoration: inherit;
+    top: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.dt-sc-warning-box {
+    background: #fdebae;
+    border: 1px solid #e6c555;
+    color: #c79d13;
+    position: relative;
+    clear: both;
+    margin-bottom: 25px;
+    padding: 15px 15px 12px 42px;
+}
+.dt-sc-warning-box:before {
+    color: #e2b828;
+    content: "\f06a";
+    font-size: 25px;
+    left: 12px;
+    position: absolute;
+    text-decoration: inherit;
+    top: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.dt-sc-info-box {
+    background: #bfe4f9;
+    border: 1px solid #68a2cf;
+    color: #2081b9;
+    position: relative;
+    clear: both;
+    margin-bottom: 25px;
+    padding: 15px 15px 12px 42px;
+}
+.dt-sc-info-box:before {
+    color: #008bc1;
+    content: "\f05a";
+    font-size: 25px;
+    left: 12px;
+    position: absolute;
+    text-decoration: inherit;
+    top: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.dt-sc-success-box {
+    background: #c0df89;
+    border: 1px solid #a0ce4e;
+    color: #466c00;
+    position: relative;
+    text-shadow: 1px 1px 0 #e3f1cb;
+    clear: both;
+    margin-bottom: 25px;
+    padding: 15px 15px 12px 42px;
+}
+.dt-sc-success-box:before {
+    color: #75b632;
+    content: "\f058";
+    font-size: 25px;
+    left: 12px;
+    position: absolute;
+    text-decoration: inherit;
+    top: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}

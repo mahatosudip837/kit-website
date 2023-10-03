@@ -1,0 +1,146 @@
+.contact_form_outer {
+    background: url('https://wedesignthemes.com/html/kidslife/images/contact_form_bg.png') -20px 0px;
+    box-shadow: 0px 5px 5px 0px rgba(100, 100, 100, 0.20);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(100, 100, 100, 0.20);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(100, 100, 100, 0.20);
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.contact-form {
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 30px 30px 10px;
+    box-shadow: inset 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+form p {
+    margin-bottom: 20px !important;
+}
+.column.first {
+    margin-left: 0;
+}
+.column {
+    float: left;
+    margin: 0 0 0 2%;
+    width: 100%;
+}
+.dt-sc-one-third {
+    width: 32%;
+}
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 16px 18px;
+    font-size: 16px;
+    color: #a9a7a7;
+    background: #FFFFFF;
+    border: 1px solid #eaeaea;
+    outline: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal;
+}
+.contact-form input[type=submit] {
+    margin: 0px;
+}
+.dt-sc-button.medium {
+    font-size: 15px;
+    padding: 14px 18px;
+}
+input[type=submit] {
+    background: #015057;
+    color: #FFFFFF;
+    font-family: inherit;
+    padding: 18px 24px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    cursor: pointer;
+}
+.admission-form textarea, .contact-form textarea, .comment-form textarea {
+    width: 100%;
+    padding: 16px 18px;
+    background: #FFFFFF;
+    height: 190px;
+    border: 1px solid #eaeaea;
+}
+.class_hours h2 {
+    color: #FFFFFF;
+    line-height: normal;
+    margin: 0px;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #008c99;
+}
+ul.class_hours {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #FFFFFF;
+}
+ul.class_hours li {
+    width: 100%;
+    display: block;
+    padding: 10px 10px 10px;
+    margin: 0px 0px 0px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    float: none;
+    position: relative;
+}
+ul.class_hours li span {
+    font-style: italic;
+    font-weight: normal;
+    color: #cf571b;
+    float: right;
+}
+.copyright .footer-links ul, .class_hours ul.dt-sc-social-icons {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.copyright .footer-links ul li, .class_hours ul.dt-sc-social-icons li {
+    margin: 0px 8px 0px 0px;
+    display: inline-block;
+    padding-bottom: 0;
+}
+.copyright .footer-links ul li.facebook:hover a, .class_hours ul.dt-sc-social-icons li.facebook a {
+    background: #3c5b9b;
+}
+.copyright .footer-links ul li.twitter:hover a, .class_hours ul.dt-sc-social-icons li.twitter a {
+    background: #2caae1;
+}
+.copyright .footer-links ul li.gplus:hover a, .class_hours ul.dt-sc-social-icons li.gplus a {
+    background: #ba3526;
+}
+.copyright .footer-links ul li.pinterest:hover a, .class_hours ul.dt-sc-social-icons li.pinterest a {
+    background: #ca1325;
+}
+.copyright .footer-links ul li a, .class_hours ul.dt-sc-social-icons li a {
+    width: 35px;
+    height: 35px;
+    display: block;
+    line-height: 33px;
+    text-align: center;
+    padding: 0px;
+}
+ul.dt-sc-social-icons li a {
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #292929;
+    padding: 0 10px;
+}
