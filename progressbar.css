@@ -1,0 +1,46 @@
+.animated-progress {
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+    background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));
+    background-size: 20px 20px;
+    animation: animate 5s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+        background-position: 0;
+    }
+    0%{
+        background-position: 100px;
+    }
+  }
+  
+  .progress-green span {
+        background-color: rgb(133, 190, 72);
+  }
+  .progress-blue span {
+    background-color: rgb(52, 152, 219);
+  }
+  .progress-pink span {
+    background-color: rgb(228, 114, 174);
+  }
+  .progress-yellow span {
+    background-color: rgb(243, 156, 18);
+  }
+  .progress-violate span {
+    background-color: rgb(156, 89, 182);
+  }
+  

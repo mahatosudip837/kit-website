@@ -1,0 +1,45 @@
+.dt-sc-titled-box h4.dt-sc-titled-box-title {
+    padding: 10px 15px;
+    text-shadow: none;
+    margin: 0 !important;
+    color: #fff;
+    background: #008c99;
+}
+.dt-sc-titled-box.green h4.dt-sc-titled-box-title{
+    background: #7aa127;
+}
+.dt-sc-titled-box-content {
+    padding: 15px 15px 20px;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+}
+.dt-sc-titled-box.mustard h4.dt-sc-titled-box-title {
+    background: #df9b00;
+}
+.dt-sc-titled-box.burnt-orange h4.dt-sc-titled-box-title {
+    background: #cf571b;
+}
+.dt-sc-titled-box.blue h4.dt-sc-titled-box-title {
+    background: #73d5f0;
+}
+.dt-sc-titled-box.chocolate h4.dt-sc-titled-box-title {
+    background: #7b4b4b;
+}
+.dt-sc-titled-box.grey h4.dt-sc-titled-box-title {
+    background: #818181;
+}
+.dt-sc-titled-box.pink h4.dt-sc-titled-box-title {
+    background: #de81b8;
+}
+.sky-bg-new{
+    border: 3px solid #008c99 !important;
+    background-color: #008c99 !important;
+    color: #fff !important;
+}
+.sky-bg-new i{
+    color: #fff !important;
+}
+.sky-color a{
+    color: #008c99 !important;
+}

@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6, .dt-sc-ico-content h4 a, .dt-sc-ico-content.type2 h4 a, .entry-title h3, .dt-sc-team h4, h3.widgettitle, .dt-sc-music-audio h5 a, input[type=text], input[type=email], textarea, .breadcrumb-section h1, .activity h4, .megamenu-child-container > ul.sub-menu > li > a {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal;
+}
 table {
     border-collapse: separate;
     border-spacing: 0;

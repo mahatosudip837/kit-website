@@ -1,0 +1,72 @@
+blockquote {
+    padding: 15px 38px;
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    border: 1px dashed rgba(255,255,255,.5);
+    background: #008c99;
+    box-shadow: 0 0 0 2px #008c99;
+    -webkit-box-shadow: 0 0 0 2px #008c99;
+    -moz-box-shadow: 0 0 0 2px #008c99;
+}
+blockquote q {
+    font-style: italic;
+}
+blockquote q:before, blockquote q:after {
+    font-size: 48px;
+    font-family: Georgia,serif;
+    font-style: italic;
+    position: absolute;
+}
+blockquote q:before {
+    top: 24px;
+    left: 10px;
+}
+blockquote q:after {
+    bottom: 0;
+    right: 15px;
+}
+blockquote.green {
+    background: #7aa127;
+    box-shadow: 0 0 0 2px #7aa127;
+    -webkit-box-shadow: 0 0 0 2px #7aa127;
+    -moz-box-shadow: 0 0 0 2px #7aa127;
+}
+blockquote.mustard {
+    background: #df9b00;
+    box-shadow: 0 0 0 2px #df9b00;
+    -webkit-box-shadow: 0 0 0 2px #df9b00;
+    -moz-box-shadow: 0 0 0 2px #df9b00;
+}
+blockquote.burnt-orange {
+    background: #cf571b;
+    box-shadow: 0 0 0 2px #cf571b;
+    -webkit-box-shadow: 0 0 0 2px #cf571b;
+    -moz-box-shadow: 0 0 0 2px #cf571b;
+}
+blockquote.blue {
+    background: #73d5f0;
+    color: inherit;
+    box-shadow: 0 0 0 2px #73d5f0;
+    -webkit-box-shadow: 0 0 0 2px #73d5f0;
+    -moz-box-shadow: 0 0 0 2px #73d5f0;
+}
+blockquote.chocolate {
+    background: #7b4b4b;
+    box-shadow: 0 0 0 2px #7b4b4b;
+    -webkit-box-shadow: 0 0 0 2px #7b4b4b;
+    -moz-box-shadow: 0 0 0 2px #7b4b4b;
+}
+blockquote.grey {
+    background: #818181;
+    box-shadow: 0 0 0 2px #818181;
+    -webkit-box-shadow: 0 0 0 2px #818181;
+    -moz-box-shadow: 0 0 0 2px #818181;
+}
+blockquote.pink {
+    background: #d074b3;
+    box-shadow: 0 0 0 2px #d074b3;
+    -webkit-box-shadow: 0 0 0 2px #d074b3;
+    -moz-box-shadow: 0 0 0 2px #d074b3;
+}

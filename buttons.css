@@ -1,0 +1,130 @@
+.dt-sc-button.small {
+    font-size: 14px;
+    padding: 10px 14px;
+}
+.dt-sc-button {
+    background: #008c99;
+    color: #fff;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    margin: 10px 0 0;
+    display: inline-block;
+}
+.dt-sc-button.medium {
+    font-size: 15px;
+    padding: 14px 18px;
+}
+.dt-sc-button.large {
+    font-size: 20px;
+    padding: 16px 25px;
+}
+.dt-sc-button.xlarge {
+    font-size: 22px;
+    padding: 20px 26px;
+}
+.dt-sc-button.pink {
+    background: #de81b8;
+}
+.dt-sc-button.mustard {
+    background: #df9b00;
+}
+.dt-sc-button.burnt-orange {
+    background: #cf571b;
+}
+ol.dt-sc-fancy-list.turquoise li {
+    color: #008c99;
+}
+ol.dt-sc-fancy-list li span {
+    color: #5c5c5c;
+}
+ol.dt-sc-fancy-list.pink li {
+    color: #de81b8;
+}
+ol.decimal-leading-zero {
+    list-style-type: decimal-leading-zero;
+}
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+ol.dt-sc-fancy-list.mustard li {
+    color: #df9b00;
+}
+ol.lower-roman {
+    list-style-type: lower-roman;
+}
+ol.dt-sc-fancy-list.violet li {
+    color: #9b59b6;
+}
+ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+ol.dt-sc-fancy-list.blue li {
+    color: #3498db;
+}
+ol.upper-roman {
+    list-style-type: upper-roman;
+}
+ol.dt-sc-fancy-list.chocolate li {
+    color: #7b4b4b;
+}
+ul.dt-sc-fancy-list li {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    line-height: normal;
+}
+ul.dt-sc-fancy-list.tree li:before {
+    content: "\f1bb";
+    color: #868686;
+    text-decoration: inherit;
+    font-size: 14px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+ul.dt-sc-fancy-list.turquoise li:before {
+    color: #008c99;
+}
+ul.dt-sc-fancy-list.violet li:before {
+    color: #9b59b6;
+}
+ul.dt-sc-fancy-list.blue li:before {
+    color: #3498db;
+}
+ul.dt-sc-fancy-list.car li:before {
+    content: "\f1b9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+ul.dt-sc-fancy-list.chocolate li:before {
+    color: #7b4b4b;
+}
+ul.dt-sc-fancy-list.moon li:before {
+    content: "\f186";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+ul.dt-sc-fancy-list.burnt-orange li:before {
+    color: #cf571b;
+}
+ul.dt-sc-fancy-list.graduation-cap li:before {
+    content: "\f19d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+ul.dt-sc-fancy-list.red li:before {
+    color: #cb4d40;
+}
+ul.dt-sc-fancy-list.reddit li:before {
+    content: "\f1a1";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
