@@ -70,3 +70,29 @@ blockquote.pink {
     -webkit-box-shadow: 0 0 0 2px #d074b3;
     -moz-box-shadow: 0 0 0 2px #d074b3;
 }
+.dt-sc-pullquote.alignleft {
+    margin: 20px 20px 20px 0;
+}
+.dt-sc-pullquote {
+    border-left: 3px solid #008c99;
+    background: #fff;
+    letter-spacing: 0;
+    line-height: 25px;
+    padding: 15px;
+    width: 36%;
+}
+.dt-sc-pullquote.alignright {
+    margin: 20px 0 20px 20px;
+}
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
+}
+.dt-sc-pullquote.aligncenter {
+    margin: 20px 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+}

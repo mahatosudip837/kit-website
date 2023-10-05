@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="pricing.css">
     <link rel="stylesheet" href="progressbar.css">
     <link rel="stylesheet" href="quotes.css">
+    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="service.css">
 
     <title>Kids Life - Children HTML Template Preview</title>
   </head>
@@ -183,74 +185,174 @@
 
     <div class="breadcrumb-section">
         <div class="container d-flex justify-content-between align-items-center">
-            <h1>Quotes</h1>
+            <h1>Tabs & Toggles</h1>
             <div class="right-breadcrumb">
             <a href="index.html">Home</a>
             <i class="fa fa-angle-double-right"></i>
             <span class="current">Shortcodes</span>
             <i class="fa fa-angle-double-right"></i>
-            <span class="current">Quotes</span>
+            <span class="current">Tabs & Toggles</span>
             </div>
             </div>
     </div>
-
-
-
-    <section class="quotes py-5">
+    
+    <section class="tabs py-5">
         <div class="container">
-            <h2 class="dt-sc-hr-green-title green-line text-center">Blockquotes</h2>
             <div class="row">
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote>
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
+                <div class="col-lg-6 col-12">
+                    <h2>Horizontal Tabs</h2>
+                    <div class="tab-section d-flex">
+                        <div class="tab-button active-btn" data-tab="tab1">Tab 1</div>
+                        <div class="tab-button " data-tab="tab2">Tab 2</div>
+                        <div class="tab-button " data-tab="tab3">Tab 3</div>
+                    </div>
+
+                    <div id="tab1" class="tab active-tab">
+                        <p>Tab 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet</p>
+                        <ul class="dt-sc-fancy-list mustard smile">
+                            <li>Lorem ipsum dolor sit</li>
+                            <li>Praesent convallis nibh</li>
+                            <li>Nullam ac sapien sit</li>
+                            <li>Phasellus auctor augue</li>
+                            </ul>
+                    </div>
+
+                    <div id="tab2" class="tab">
+                        <p>Tab 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet</p>
+                        <ul class="dt-sc-fancy-list burnt-orange music">
+                            <li>Lorem ipsum dolor sit</li>
+                            <li>Praesent convallis nibh</li>
+                            <li>Nullam ac sapien sit</li>
+                            <li>Phasellus auctor augue</li>
+                            </ul>
+                    </div>
+
+                    <div id="tab3" class="tab">
+                        <p>Tab 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet</p>
+                        <ul class="dt-sc-fancy-list pink star">
+                            <li>Lorem ipsum dolor sit</li>
+                            <li>Praesent convallis nibh</li>
+                            <li>Nullam ac sapien sit</li>
+                            <li>Phasellus auctor augue</li>
+                            </ul>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote class="green">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
-                </div>
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote class="mustard">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
-                </div>
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote class="burnt-orange">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
-                </div>
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote class="blue">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
-                </div>
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote class="chocolate">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
-                </div>
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote class="grey">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
-                </div>
-                <div class="col-lg-6 col-12 mb-2">
-                    <blockquote class="pink">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ex fb aute in esse eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eafb aute in cd commodo consequat.</q>
-                    </blockquote>
+                <div class="col-lg-6 col-12">
+                    <h2>Vertical Tabs</h2>
+                    <div class="row">
+                        <div class="col-lg-4 tab-column">
+                            <div class="tab-section ">
+                                <div class="tab-button-new active-btn" data-tab="tab4">Tab 1</div>
+                                <div class="tab-button-new" data-tab="tab5">Tab 2</div>
+                                <div class="tab-button-new" data-tab="tab6">Tab 3</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 tab-column">
+                            <div id="tab4" class="new-tab active-tab">
+                                <p>Tab 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet</p>
+                                <ul class="dt-sc-fancy-list mustard smile">
+                                    <li>Lorem ipsum dolor sit</li>
+                                    <li>Praesent convallis nibh</li>
+                                    <li>Nullam ac sapien sit</li>
+                                    <li>Phasellus auctor augue</li>
+                                    </ul>
+                            </div>
+        
+                            <div id="tab5" class="new-tab">
+                                <p>Tab 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet</p>
+                                <ul class="dt-sc-fancy-list burnt-orange music">
+                                    <li>Lorem ipsum dolor sit</li>
+                                    <li>Praesent convallis nibh</li>
+                                    <li>Nullam ac sapien sit</li>
+                                    <li>Phasellus auctor augue</li>
+                                    </ul>
+                            </div>
+        
+                            <div id="tab6" class="new-tab">
+                                <p>Tab 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet</p>
+                                <ul class="dt-sc-fancy-list pink star">
+                                    <li>Lorem ipsum dolor sit</li>
+                                    <li>Praesent convallis nibh</li>
+                                    <li>Nullam ac sapien sit</li>
+                                    <li>Phasellus auctor augue</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="quote-2 py-4">
-      <div class="container">
-        <h2 class="dt-sc-hr-green-title green-line text-center">Pullquotes</h2>
-        <p>Donec porta, justo tincidunt vulputate adipiscing, risus tortor consequat lacus, ullamcorper consequat erat sem condimentum eros. Nunc congue et sem eget tincidunt. Nunc dapibus, odio nec porttitor euismod, elit odio condimentum velit, non dictum ligula dolor in tellus. Sed et ligula vehicula, bibendum enim non, pulvinar purus. Nullam scelerisque quam sit amet augue euismod, in congue enim varius. Curabitur elementum quam vel leo eleifend pharetra.&nbsp;<span class="dt-sc-pullquote alignleft"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus ligula. Phasellus a ligula blandit </span> Morbi pellentesque, turpis sollicitudin dictum aliquet, risus justo condimentum tortor, sed placerat nisl turpis at massa. Morbi ac enim commodo, mattis odio sit amet, faucibus mauris. In et facilisis lorem, quis fringilla erat. Nunc erat dui, volutpat ut leo quis, egestas mattis ipsum. Praesent ac rhoncus tortor. Duis et dolor tincidunt, ornare tortor eget, molestie massa. Curabitur sit amet cursus ligula. Sed ut massa eget nibh venenatis aliquet. <span class="dt-sc-pullquote alignright"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus ligula. Phasellus a ligula blandit </span>&nbsp; Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed in velit augue. Vestibulum et elit id erat ullamcorper hendrerit eget nec neque. Cras aliquam libero lacus, quis laoreet velit elementum nec. Nulla facilisi. Ut tempus bibendum enim eu porta. Aenean sem ligula, molestie vel faucibus non, congue ut dui. Fusce convallis, sapien id interdum gravida, libero felis tempor quam, sed tincidunt nunc mauris ut enim. Nullam dolor dolor, dictum sed pharetra et, volutpat sit amet purus. Donec lobortis sodales augue nec molestie. Nullam faucibus sapien in lectus lobortis, at condimentum massa lobortis. Etiam vitae pellentesque massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec porta, justo tincidunt vulputate adipiscing. Etiam vitae pellentesque massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec porta, justo tincidunt vulputate adipiscing. <span class="dt-sc-pullquote aligncenter"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus ligula. Phasellus a ligula blandit </span>
-        </p>
-      </div>
+    <section class="course-overview py-5">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <h2>Framed Accordion</h2>
+                <div class="faq">
+                    <div class="question">
+                        <h5><i class="fa-solid fa-chevron-down"></i> Who We Are</div></h5>
+                    <div class="answer">
+                        <p>Etori haum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est elige ndi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptasi ass umenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis.</p>                        
+                        </div>
+            
+                    <div class="question"><h5><i class="fa-solid fa-chevron-down"></i> PROUD OF WHAT WE DO.</h5></div>
+                    <div class="answer">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p>
+                       </div>
+            
+                    <div class="question"><h5><i class="fa-solid fa-chevron-down"></i>HOW WE WORK</h5></div>
+                    <div class="answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p>
+                        </div>
+            
+                    <div class="question"><h5><i class="fa-solid fa-chevron-down"></i>WHY WE DO IT</h5></div>
+                    <div class="answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p>
+                        </div>
+            
+                    <div class="question"><h5><i class="fa-solid fa-chevron-down"></i>WHAT IS THE RESULT?</h5></div>
+                    <div class="answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p></p>
+                    </div>
+                </div>            
+            </div>
+            <div class="col-lg-6 col-12">
+                <h2>Standard Accordion</h2>
+                <div class="faq1">
+                    <div class="question">
+                        <h5> Who We Are</div></h5>
+                    <div class="answer">
+                        <p> Consectetur adipiscing elit. Praesent pulvinar massa nec augue malsuada in aliquam odio interdum.</p>                        
+                        </div>
+            
+                    <div class="question"><h5> PROUD OF WHAT WE DO.</h5></div>
+                    <div class="answer">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p>
+                       </div>
+            
+                    <div class="question"><h5>HOW WE WORK</h5></div>
+                    <div class="answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p>
+                        </div>
+            
+                    <div class="question"><h5>WHY WE DO IT</h5></div>
+                    <div class="answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p>
+                        </div>
+            
+                    <div class="question"><h5>WHAT IS THE RESULT?</h5></div>
+                    <div class="answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.</p></p>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        </div>
     </section>
+
+
 
 
     

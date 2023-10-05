@@ -751,7 +751,14 @@ footer .footer-links ul li a:hover{
 .navbar .nav-item{
     cursor: pointer;
 }
-
+.pages-dropdown{
+    width: 900px;
+    left: -300px;
+}
+.entry-details {
+    border-top: 2px solid #ebebeb;
+    padding-top: 15px;
+}
 
 .dropdown-content {
     display: none;
@@ -812,6 +819,21 @@ footer .footer-links ul li a:hover{
     }
 }
 @media screen and (max-width:991px){
+    .dropdown-content{
+        position: static;
+        background: #ffffff;
+        box-shadow: none;
+    }
+    .dropdown-content a{
+        padding: 8px 0;
+    }
+    .submenu .sub-submenu{
+        position: static;
+        box-shadow: none;
+    }
+    .pages-dropdown{
+        max-width: 240px;
+    }
     .logo-column{
         flex-direction: column;
     }

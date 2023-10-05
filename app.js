@@ -77,6 +77,25 @@ $(document).ready(function(){
 
         $("#" + tabId).addClass("active-tab");
     });
+    
+    $(".tab-button-new").click(function() {
+        let tabId = $(this).attr("data-tab");
+
+        $('.tab-button-new').each(function( ) {
+            if($(this).hasClass('active-btn')){
+                $(this).removeClass('active-btn')
+            }
+        });
+        if($(this).hasClass('active-btn')){
+            $(this).removeClass('active-btn')
+        } else {
+            $(this).addClass('active-btn')
+        }
+
+        $(".new-tab").removeClass("active-tab");
+
+        $("#" + tabId).addClass("active-tab");
+    });
 
 
     $(".faq .answer").hide();

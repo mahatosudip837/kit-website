@@ -74,7 +74,7 @@ ul li, ol li {
 }
 
 
-.tab {
+.tab,.new-tab {
     display: none;
     background: #fff;
     width: 100%;
@@ -86,18 +86,21 @@ ul li, ol li {
     display: block;
 }
 
-.tab-button {
+.tab-button ,
+.tab-button-new{
     cursor: pointer;
     padding: 10px 20px;
     border: 1px solid #ccc;
     background-color: #f0f0f0;
 }
-.tab-button{
+.tab-button,
+.tab-button-new{
     background:#df9b00;
     color: #fff;
     border-radius: 5px 5px 0 0;
 }
-.tab-button.active-btn{
+.tab-button.active-btn,
+.tab-button-new.active-btn{
     background: #cf571b;
 }
 
