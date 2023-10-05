@@ -163,6 +163,22 @@ $(document).ready(function(){
       });
 
 
+      $('.portfolio-img').hover(function() {
+        $(this).find('.image-overlay-1').stop(true,true).css({"visibility":"visible"}).animate({"opacity": "1"},400);
+        $(this).find('.image-overlay-1 h5').stop(true,true).css({"transform":"scale(1)"}).animate({"opacity": "1"},400);
+        $(this).find('.image-overlay-1 .link').stop(true,true).animate({"opacity": "1","left":"40%"},400);
+        $(this).find('.image-overlay-1 .zoom').stop(true,true).animate({"opacity": "1","right":"40%"},400);
+
+    
+    }, function() {
+        $(this).find('.image-overlay-1').stop(true,true).animate({"opacity": "0"},400);
+        $(this).find('.image-overlay-1 h5').stop(true,true).css({"transform":"scale(0)"}).animate({"opacity": "0"},400);
+        $(this).find('.image-overlay-1 .link').stop(true,true).animate({"opacity": "0","left":"0"},400);
+        $(this).find('.image-overlay-1 .zoom').stop(true,true).animate({"opacity": "0","right":"0"},400);
+
+
+    });
+
     
 
 
