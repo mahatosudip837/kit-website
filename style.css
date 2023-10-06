@@ -1022,9 +1022,6 @@ footer .footer-links ul li a:hover{
     .navbar-toggler{
         background: #fff !important;
     }
-    .navbar-light .navbar-nav .nav-link{
-        color: #fff !important;
-    }
     .dropdown-content a{
         padding: 8px 0;
     }
