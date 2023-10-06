@@ -1007,6 +1007,22 @@ footer .footer-links ul li a:hover{
         background: #ffffff;
         box-shadow: none;
     }
+    .navbar.bg-white{
+        background: #008c99 !important;
+        color: #fff !important;
+    }
+    .navbar-light .navbar-brand{
+        color: #fff;
+    }
+    .navbar-toggler{
+        background: #fff !important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #fff !important;
+    }
+    .my-navbar.bg-white{
+        background: #008c99 !important;
+    }
     .dropdown-content a{
         padding: 8px 0;
     }
