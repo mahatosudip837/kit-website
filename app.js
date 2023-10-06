@@ -15,9 +15,15 @@ $(document).ready(function(){
 
     $(".my-dropdown").hover(function(){
         $(this).find(".dropdown-content").stop(true, true).slideDown("fast");
-        $(this).find(".plus i").stop(true,true).toggleClass('fa-plus fa-minus')
+        $(this).find(".plus i").stop(true,true).toggleClass('fa-plus fa-minus');
     }, function(){
         $(this).find(".dropdown-content").stop(true, true).slideUp("fast");
+        $(this).find(".plus i").stop(true,true).toggleClass('fa-minus fa-plus');
+    });
+    $(".submenu").hover(function(){
+        $(this).find(".plus-2 i").stop(true,true).toggleClass('fa-plus fa-minus');
+    }, function(){
+        $(this).find(".plus-2 i").stop(true,true).toggleClass('fa-minus fa-plus');
     });
     $(".product-box").hover(function(){
         $(this).find(".image-overlay").stop(true, true).fadeIn("fast");
