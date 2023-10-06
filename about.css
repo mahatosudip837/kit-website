@@ -65,6 +65,51 @@ p {
     transform: translate(11px, -50%);
     opacity: 1;
 }
+.item blockquote {
+    position: relative;
+    color: #fff;
+    padding: 15px 56px;
+    display: block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0 0 25px;
+    font-size: 14px;
+    line-height: inherit;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background: #008c99;
+}
+blockquote q {
+    font-style: italic;
+}
+.item blockquote:after {
+    content: "";
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #008c99 transparent transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -15px;
+    left: 25px;
+}
+.item blockquote q:before, .item blockquote q:after {
+    font-size: 78px;
+    font-family: Georgia,serif;
+    font-style: italic;
+    position: absolute;
+}
+.item blockquote q:before {
+    top: 35px;
+    left: 10px;
+}
+.item blockquote q:after {
+    bottom: -10px;
+    right: 25px;
+}
 .author-thumb {
     display: inline-block;
     margin: 0px 20px 20px 0px;

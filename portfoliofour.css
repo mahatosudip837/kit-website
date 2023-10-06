@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .filter {
@@ -47,10 +49,42 @@ img {
     margin: 0px 0px 20px;
     overflow: hidden;
 }
+.portfolio-thumb .image-overlay-2 {
+    background: rgba(24, 151, 163, 0.9);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 0.2s ease 0s;
+    -moz-transition: opacity 0.2s ease 0s;
+    -webkit-transition: opacity 0.2s ease 0s;
+    visibility: hidden;
+    width: 100%;
+}
+.portfolio-thumb .image-overlay-2 a {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    z-index: 9;
+    background: #FFFFFF;
+    width: 25px;
+    height: 40px;
+    line-height: 40px;
+    top: 50%;
+    margin: -18px 0px 0px;
+}
+.portfolio-thumb .image-overlay-2 a.zoom {
+    right: 0px;
+}
+.portfolio-thumb .image-overlay-2 a.link {
+    left: 0px;
+}
 .portfolio-thumb img {
     float: left;
     width: 100%;
     clear: both;
+    height: 100%;
 }
 img {
     border: none;

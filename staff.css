@@ -1,6 +1,9 @@
 .my-card-staff{
     padding: 0 5% 20px;
 }
+.my-card-staff:hover .icon{
+    background: #efc043;;
+}
 .my-card-staff .icon {
     display: inline-block;
     width: 90px;
@@ -10,6 +13,7 @@
     border-radius: 50%;
     background: #008c99;
     cursor: pointer;
+    transition: all .5s ease;
 }
 .my-card-staff .icon i {
     font-size: 36px;
