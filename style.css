@@ -45,6 +45,12 @@ ul{
 .home{
     position: relative;
 }
+.plus{
+    display: none;
+}
+.minus{
+    display: none;
+}
 .navbar .social-link{
     height: 40px;
 }
@@ -1007,21 +1013,17 @@ footer .footer-links ul li a:hover{
         background: #ffffff;
         box-shadow: none;
     }
-    .navbar.bg-white{
-        background: #008c99 !important;
-        color: #fff !important;
-    }
-    .navbar-light .navbar-brand{
-        color: #fff;
+    .plus {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 4%;
     }
     .navbar-toggler{
         background: #fff !important;
     }
     .navbar-light .navbar-nav .nav-link{
         color: #fff !important;
-    }
-    .my-navbar.bg-white{
-        background: #008c99 !important;
     }
     .dropdown-content a{
         padding: 8px 0;

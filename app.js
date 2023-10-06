@@ -15,6 +15,7 @@ $(document).ready(function(){
 
     $(".my-dropdown").hover(function(){
         $(this).find(".dropdown-content").stop(true, true).slideDown("fast");
+        $(this).find(".plus i").stop(true,true).toggleClass('fa-plus fa-minus')
     }, function(){
         $(this).find(".dropdown-content").stop(true, true).slideUp("fast");
     });
